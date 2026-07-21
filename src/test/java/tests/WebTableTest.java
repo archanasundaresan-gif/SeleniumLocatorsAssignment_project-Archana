@@ -18,7 +18,7 @@ public class WebTableTest extends BasePage {
     @Test
     public void webTable() {
 
-        driver.get("https://demoqa.com/webtables");//opening the website
+        driver.get("https://demoqa.com/webtables");//opening the website demo qa
 
         driver.findElement(By.id("addNewRecordButton")).click();
 
