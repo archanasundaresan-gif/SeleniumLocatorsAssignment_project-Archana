@@ -28,13 +28,13 @@ public class WebTableTest extends BasePage {
 
         driver.findElement(By.id("userEmail")).sendKeys("archana@gmail.com");
 
-        driver.findElement(By.id("age")).sendKeys("25");
+        driver.findElement(By.id("age")).sendKeys("25");//locator dobe
 
         driver.findElement(By.id("salary")).sendKeys("50000");
 
         driver.findElement(By.id("department")).sendKeys("QA");
 
-        driver.findElement(By.id("submit")).click();
+        driver.findElement(By.id("submit")).click();// Git Test - 21 July 2026
 
         driver.findElement(By.id("searchBox")).sendKeys("Archana");
 
