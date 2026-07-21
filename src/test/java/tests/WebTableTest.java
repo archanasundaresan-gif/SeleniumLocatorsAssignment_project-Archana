@@ -28,7 +28,7 @@ public class WebTableTest extends BasePage {
 
         driver.findElement(By.id("userEmail")).sendKeys("archana@gmail.com");
 
-        driver.findElement(By.id("age")).sendKeys("25");
+        driver.findElement(By.id("age")).sendKeys("25");//locator dobe
 
         driver.findElement(By.id("salary")).sendKeys("50000");
 
